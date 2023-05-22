@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.ui-container {
+    @apply max-w-[1140px] mx-auto px-3
+}
+
+.active {
+    @apply text-indigo-600
+}
+
+.btn-red-outline {
+    @apply text-[#FF3811] border border-[#FF3811] px-6 py-3 rounded
+}
